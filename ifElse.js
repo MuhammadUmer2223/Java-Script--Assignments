@@ -66,15 +66,88 @@
 
 // }else{
 //     document.write("Good Night");
+// // }
+// Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+
+// var pass_word = "coder";
+// var user_password = prompt("enter your password");
+// if(user_password == ""){
+//     document.write("Plwase enter a password");
+// }else if(user_password ==  pass_word){
+//     document.write("Correct! your password matched with original password")
+// }
+//     else{
+//         document.write(user_password);
+//     }
+
+// Write a program that adds an else statement to the following
+// script to display “You are not Fahad”
+// var firstName = "Ali";
+// if (firstName === "Fahad") {
+// document.write("Hello Fahad!");
+// }else{
+//     document.write("tou are not Fahad");
 // }
 
-var pass_word = "coder";
-var user_password = prompt("enter your password");
-if(user_password == ""){
-    document.write("Plwase enter a password");
-}else if(user_password ==  pass_word){
-    document.write("Correct! your password matched with original password")
-}
-    else{
-        document.write(user_password);
-    }
+// This if/else statement does not work. Try to fix it:
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";}
+// else{
+// greeting = "Good evening";
+// }
+// document.write(greeting);
+
+ // Write a JavaScript program that accept two integers and
+ // display the larger. Also show if the two integers are equal.
+// var num1 = +prompt("enter  a number");
+// var num2 = +prompt("enter a number");
+// if(num1 > num2){
+//     document.write(num1 + " is larger number");
+// }else if(num2 > num1){
+//     document.write(num2 + " is larger number");
+// }else{
+//     document.write(num1 + " = " + num2);
+// }
+// Write a program that takes input a number from user & state
+// whether the number is positive, negative or zero
+// var num = prompt("enter a number");
+// if(num > 0){
+//     document.write(num + " the number is positive ");
+// }else if(num < 0){
+//     document.write(num + " the number is negative");
+// }else{
+//     document.write("the number is zero")
+// }
+// Write a program that stores value in a variable & tell whether
+// the type of that variable is a "number", "string", "boolean" or
+// “undefined”
+// var value_ = +prompt("enter a value");
+// if(typeof(value_) == "number"){
+//     document.write("the given value is  number");
+// }else if(typeof(value_) == "string"){
+//     document.write("the given value is  string");
+// }else{
+//     document.write("the given value is boolean");
+// }
+
+// Write a program that takes a character (i.e. string of length 1)
+// and returns true if it is a vowel, false otherwise.
+// var str = prompt("enter a single character letter");
+// if(str == "a" || str == "e" || str == "i" || str == "o" || str == "u"){
+//     document.write("vowel");
+// }else{
+//     document.write(false);
+// // }
+// Choose the correct comparison operator to display "true",
+// when:
+// 10 is NOT equal to 8.
+// if(10 != 8){
+    // document.write(true);
+// }
+
