@@ -149,5 +149,6 @@
 // 10 is NOT equal to 8.
 // if(10 != 8){
     // document.write(true);
-// }
+// };
+
 
