@@ -144,10 +144,73 @@ var user1 = document.querySelector("#user1");
 // var newarr = arr.join(" ");
 // after.innerHTML= "String <br>" + newarr;
 
-var devices = ["Keyboard","Mouse","Monitor", "Printer"];
+        // Create a new array. Store values one by one in such a way
+        // that you can access the values in the order in which they were
+        // stored. (FIFO-First In First Out)
 
-var before = document.querySelector("#before");
-var after = document.querySelector("#after");
-before.innerHTML = devices;
-devices.shift();
-after.innerHTML = devices;
+// var devices = ["Keyboard","Mouse","Monitor", "Printer"];
+
+// var before = document.querySelector("#before");
+// var after = document.querySelector("#after");
+// var after1 = document.querySelector("#after1");
+// var after2 = document.querySelector("#after2");
+// var after3 = document.querySelector("#after3");
+// before.innerHTML = devices;
+// var stores_value;
+// stores_value = devices.shift(); 
+// after.innerHTML = "Out :<br>" + stores_value;
+// stores_value = devices.shift();
+// after1.innerHTML = "Out: <br>"+ stores_value;
+
+// stores_value = devices.shift();
+// after2.innerHTML = "Out: <br>"+ stores_value;
+
+
+// stores_value = devices.shift();
+// after3.innerHTML = "Out: <br>"+ stores_value ;
+
+
+// Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last In-First
+// Out)
+
+// var devices = ["Keyboard","Mouse","Monitor", "Printer"];
+
+// var before = document.querySelector("#before");
+// var after = document.querySelector("#after");
+// var after1 = document.querySelector("#after1");
+// var after2 = document.querySelector("#after2");
+// var after3 = document.querySelector("#after3");
+// before.innerHTML = devices;
+// var stores_value;
+// stores_value = devices.pop(); 
+// after.innerHTML = "Out :<br>" + stores_value;
+// stores_value = devices.pop();
+// after1.innerHTML = "Out: <br>"+ stores_value;
+
+// stores_value = devices.pop();
+// after2.innerHTML = "Out: <br>"+ stores_value;
+
+
+// stores_value = devices.pop();
+// after3.innerHTML = "Out: <br>"+ stores_value ;
+
+// var phone = ["Apple", "Samsung", "Nokia", "Motoroa","Haier"];
+// var option1 = document.querySelector("#option1");
+// var option2 = document.querySelector("#option2");
+// var option3 = document.querySelector("#option3");
+// var option4 = document.querySelector("#option4");
+// var option5 = document.querySelector("#option5");
+// option1.innerHTML = phone[0];
+// option2.innerHTML = phone[1];
+// option3.innerHTML = phone[2];
+// option4.innerHTML = phone[3];
+// option5.innerHTML = phone[4];
+
+// Declare and initialize an empty multidimensional array.
+// (Array of arrays)
+
+var mult_arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+document.write(mult_arr[0][0] + " " + mult_arr[0][1] + " " + mult_arr[0][2] +" "+ mult_arr[0][3]);
+document.write("<br>" + mult_arr[1][0] + " " + mult_arr[1][1] + " " + mult_arr[1][2]+ " " + mult_arr[1][3]);
+document.write("<br>" + mult_arr[2][0] + " " + mult_arr[2][1] + " " + mult_arr[2][2] + " " + mult_arr[2][3]);
