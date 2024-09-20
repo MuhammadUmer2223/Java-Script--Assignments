@@ -30,7 +30,7 @@ function deleteTodo(i){
     div.innerHTML = "";
     global_array.splice(i,1);
     for(var i = 0; i< global_array.length; i++){
-        div.innerHTML += `<li>${global_array[i]}<button onclick = "deleteTodo(${i})">Delete</button><button onclick = "editTodo(${i})">Edit</Button></li>`;
+        div.innerHTML += `<li>${global_array[i]}  <button onclick = "deleteTodo(${i})">Delete</button>  <button onclick = "editTodo(${i})">Edit</Button></li>`;
 
     }
 }
@@ -42,7 +42,7 @@ function editTodo(i){
     var edit = prompt("please add some values");
     global_array.splice(i,1, edit);
     for(var i = 0; i<global_array.length; i++){
-        div.innerHTML += `<li>${global_array[i]}<button onclick = "deleteTodo(${i})">Delete</button><Button onclick = "editTodo(${i})">Edit</Button></li>`;
+        div.innerHTML += `<li>${global_array[i]} <button onclick = "deleteTodo(${i})">Delete</button> <Button onclick = "editTodo(${i})">Edit</Button></li>`;
         
     }
     
