@@ -13,3 +13,20 @@ function renderColor(){
 function changeColor(index){
     body.style.backgroundColor =  colors[index];
 }
+
+
+//HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <h1 id="head">Name of Colors </h1>
+    <button id="btn" onclick="renderColor()">Colors</button>
+</body>
+<script src="./array.js"></script>
+</html>
