@@ -1,0 +1,15 @@
+var colors = ["Orange", "yellow","black", "White", "green", "red","blue" ];
+var btn = document.querySelector("#btn");
+var body = document.querySelector("body");
+
+//  btn.style.backgroundColor = "blue";
+
+function renderColor(){
+    btn.innerHTML = "";
+    for(var i = 0; i < colors.length; i++){
+        btn.innerHTML += ` <button onclick= "changeColor(${i})">${colors[i]}</button>`;
+    }
+} 
+function changeColor(index){
+    body.style.backgroundColor =  colors[index];
+}
